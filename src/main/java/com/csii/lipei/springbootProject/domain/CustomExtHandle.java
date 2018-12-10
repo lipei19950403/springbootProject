@@ -26,7 +26,7 @@ public class CustomExtHandle {
 	Object handleException(Exception e,HttpServletRequest request){
 		Map<String, Object> map = new HashMap<>();
 		map.put("msg", e.getMessage());
-		map.put("code", 100);
+		map.put("code", 103);
 		map.put("url", request.getRequestURI());
 		return map;
 	}
