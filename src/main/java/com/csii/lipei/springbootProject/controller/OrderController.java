@@ -22,12 +22,12 @@ public class OrderController {
 	public Object order(String msg){
 		Destination destination = new ActiveMQQueue("lipei-queue");
 		produceService.sendMessage(destination, msg);
-		return "123";
+		return "1237";
 	}
 	
 	public Object common(String msg){
 		produceService.sendMessage(msg);
-		return "123";
+		return "1234";
 	}
 	
 	/**
@@ -39,6 +39,6 @@ public class OrderController {
 	@GetMapping("topic")
 	public Object topic(String msg){
 		produceService.publish(msg);
-		return "123";
+		return "1235";
 	}
 }
