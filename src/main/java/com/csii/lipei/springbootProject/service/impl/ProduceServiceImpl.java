@@ -25,7 +25,7 @@ public class ProduceServiceImpl implements ProduceService {
 
 	@Override
 	public void sendMessage(String meaage) {
-		jmsMessagingTemplate.convertAndSend(this.queue,meaage);
+		jmsMessagingTemplate.convertAndSend(this.queue,meaage);   
 	}
 	
 	

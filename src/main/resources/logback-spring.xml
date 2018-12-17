@@ -34,7 +34,8 @@
 		</layout>
 	</appender>
 	
-	<logger name="com.csii.lipei.springbootTest" level="DEBUG"/>
+	<logger name="com.csii.lipei.springbootProject.mapper" level="DEBUG"/>
+	
 	
 	<!-- 控制总的输出级别 -->
 	<root>

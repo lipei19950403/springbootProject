@@ -24,7 +24,7 @@ import org.springframework.scheduling.annotation.EnableScheduling;
 @EnableScheduling//任务调度器
 @EnableAsync//开启异步任务
 @EnableJms//开启支持jms
-//@MapperScan("com.csii.lipei.springbootTest.mapper")//扫描mybatis注解包
+@MapperScan("com.csii.lipei.springbootProject.mapper")//扫描mybatis注解包
 public class SpringbootProjectApplication {
 	
 	@Bean
