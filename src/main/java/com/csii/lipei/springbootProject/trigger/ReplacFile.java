@@ -11,8 +11,6 @@ import java.io.InputStreamReader;
 import java.io.OutputStream;
 import java.io.OutputStreamWriter;
 
-import org.xmlunit.builder.Input;
-
 /**
  * 
  * @author lipei
